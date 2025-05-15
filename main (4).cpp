@@ -3,15 +3,15 @@
 using namespace std;
 int main()
 {
-   // Declarar las variables
-    float num1;
-    float num2;
-    float num3;
-    float num4;
-    float suma;
-    float promedio;
+
+    float num1; // Declaro la primera variable
+    float num2; // Declaro la segunda variable
+    float num3; // Declaro la tercera variable
+    float num4; // Declaro la cuarta variable
+    float suma; // Declaro la quinta variable
+    float promedio; // Declaro la sexta variable
     
-    cout << "este programa suma 4 numeros y despues hace el proemdio" <<endl; 
+    cout << "este programa suma 4 numeros y despues hace el proemdio" <<endl; //le indica al usuario lo que hace el programa
     // Solicitar al usuario que ingrese los cuatro números
     cout << "Ingrese el primer número: ";
     cin >> num1;
@@ -22,15 +22,12 @@ int main()
     cout << "Ingrese el cuarto número: ";
     cin >> num4;
 
-    // Calcular la suma de los cuatro números
-    suma = num1 + num2 + num3 + num4;
+    suma = num1 + num2 + num3 + num4; // Calcula la suma de los cuatro números
 
-    // Calcular el promedio
-    promedio = suma / 4;
+    promedio = suma / 4; // Calcula el promedio
 
-    // Mostrar los resultados
-    cout << "La suma de los cuatro números es: " << suma << endl;
-    cout << "El promedio de los cuatro números es: " << promedio << endl;
+    cout << "La suma de los cuatro números es: " << suma << endl; // Muestra el resultado de la suma
+    cout << "El promedio de los cuatro números es: " << promedio << endl; // Muestra el resultado del promedio
 
     return 0;
 }
