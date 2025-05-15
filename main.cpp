@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    float lado; // creo una variable
-    float perimetro; // creo una segunda variable
+    float lado; // declaro la primera variable
+    float perimetro; // declaro la segunda variable
 
     cout << "Ingrese el valor del lado del cuadrado: "; // Solicita al usuario que ingrese el valor del lado
     cin >> lado; //guarda el valor dado por el usuario en la variable lado
