@@ -15,9 +15,7 @@ int main()
 
     area = (base * altura) / 2;  // Calcula el área del triángulo multiplicando base por altura 
 
-    // Mostrar el resultado
-    cout << "El área del triángulo es: " << area << endl;
-
+    cout << "El área del triángulo es: " << area << endl; // Muestra el resultado
 
     return 0;
 }
