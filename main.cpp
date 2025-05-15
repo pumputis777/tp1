@@ -3,17 +3,17 @@
 using namespace std;
 int main()
 {
-    float lado, perimetro;
+    float lado; // creo una variable
+    float perimetro; // creo una segunda variable
 
-    // Solicitar al usuario que ingrese el valor del lado
-    cout << "Ingrese el valor del lado del cuadrado: ";
-    cin >> lado;
+    cout << "Ingrese el valor del lado del cuadrado: "; // Solicita al usuario que ingrese el valor del lado
+    cin >> lado; //guarda el valor dado por el usuario en la variable lado
 
-    // Calcular el perímetro
-    perimetro = 4 * lado;
 
-    // Mostrar el resultado
-    cout << "El perímetro del cuadrado es: " << perimetro << endl;
+    perimetro = 4 * lado; // Calcula el perímetro multiplicando el lado por 4 y lo guarda en la variable perimetro
+
+
+    cout << "El perímetro del cuadrado es: " << perimetro << endl; // Muestra el resultado
 
     return 0;
 }
